@@ -208,7 +208,7 @@ def update_plots(country, state, metrics, n):
     barchart_cum = barchart(data, metrics, prefix="Cum", yaxisTitle="Cumulated Cases")
     return barchart_new, barchart_cum
 
-server = app.server
+# server = app.server()
 
 if __name__ == '__main__':
-    app.run_server
+    app.run_server()
